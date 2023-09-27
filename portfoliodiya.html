@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(image/brown.jpg);
+            position: relative;
+            padding-bottom: 30px;
+            height: 600px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: rgb(236, 230, 230);
+        }
+
+        .header {
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+        .diya > h1{
+            margin-left: 525px;
+            color: azure;
+        }
+        .diya > h3{
+            margin-left: 510px;
+            color: azure;
+        }
+
+        .header h1 {
+            font-size: 40px;
+            font-weight: bold;
+            font-style: italic;
+            color: black;
+        }
+
+        .options {
+            display: flex;
+            position: relative;
+            justify-content: space-between;
+            margin-left: 150px;
+            padding-left: 250px;
+        }
+        .options1 {
+            display: flex;
+            margin-top: 5px;
+        }
+        .options1 a {
+            text-decoration: none;
+            background-color: bisque;
+            padding: 5px;
+            padding-left: 4px;
+            border-radius: 5px;
+            border-color: black;
+            color: rgb(23, 18, 18);
+            margin-left: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .options1 a:hover {
+            border: 1px solid rgb(24, 14, 14);
+            border-radius: 3px;
+            padding: 10px;
+            padding-left: 20px;
+            color: black;
+        }
+        .options a {
+            text-decoration: none;
+            color: white;
+            margin-left: 20px;
+            padding: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .options a:hover {
+            border: 1px solid white;
+            border-radius: 3px;
+            padding: 0px;
+            padding-left: 20px;
+            
+            color: black;
+        }
+
+        .photo {
+            margin-top: 150px;
+          
+            border-radius: 200px;
+           margin-left: 500px;
+           margin-bottom: 20px;
+            width: 200px;
+            height: 200px;
+            background-image: url(image/diya.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .name {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .des{
+            margin-top: 300px;
+            padding-top: 40px;
+            margin-bottom: 0px;
+            position: relative;
+            padding-bottom: 90px;
+            
+            background-color: white;
+            color: rgb(147, 93, 46);
+            padding-left: 325px;
+           
+            border-radius: 2px;
+        }
+
+
+        .box{
+           
+            margin-top: 80px;
+            position: relative;
+            background-color: rgba(249, 171, 171, 0.5); /* Red color with 50% opacity */
+            /* Red color with 50% opacity */
+          width: 600px;
+         height: 500px;
+         transition: 0.5s ease-in-out;
+        }
+        .box:hover{
+             color: black;
+             background-color: rgba(209, 99, 99, 0.5);
+            border-radius: 10px;
+        }
+        .box1:hover{
+            background-color: rgba(209, 99, 99, 0.5);
+            border-radius: 10px;
+        }
+
+        .box2:hover{
+            background-color: rgba(209, 99, 99, 0.5);
+            border-radius: 10px;
+        }
+      .makeup > .box1{
+        margin-left: 20px;
+      }
+      .makeup > .box2{
+        margin-left: 20px;
+      }
+      .makeup > .box3{
+        
+        margin-left: 20px;
+      }
+      
+        .makeup{
+            display: flex;
+            margin: 5px;
+            padding-top: 150px;
+            margin-left: 20px;
+            justify-content:space-evenly;
+            height: 800px;
+            padding: 50px;
+            background-repeat: no-repeat;
+        
+            background-size: cover;
+            background-image: url(image/mekapu.webp)
+
+        }
+        .box > pre{
+            font-size: 30px;
+            padding-top: 30px;
+            color: rgb(250, 247, 248);
+        }
+        
+        .box1{
+            
+            margin-top: 80px;
+            position: relative;
+            margin-left: 2px;
+            background-color: rgba(249, 171, 171, 0.5); /* Red color with 50% opacity */
+          width: 600px;
+         height: 500px;
+         transition: 0.5s ease-in-out;
+        }
+       
+      
+      .di >pre 
+      {
+        margin-top:0px;
+        margin-bottom: 0px;
+        position: relative;
+        margin-left: 450px;
+       font-size: 50px;
+       color: chocolate;
+       
+      }
+      .box1 > pre{
+        font-size: 30px;
+            padding-top: 30px;
+            color: rgb(251, 251, 251);
+      }
+      .diyu >H1{
+        color: brown;
+        margin-left: 400px;
+        margin-top: 50px;
+        padding-left:100px ;
+        padding-bottom: 20px;
+      }
+      .projects{
+        display: flex;
+        justify-content:center;
+      }
+      .End > h1{
+        padding-top: 90px;
+        margin-left: 560px;
+        color:rgb(10, 18, 18);
+      }
+    
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My website</h1>
+        <div class="options">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Pages</a>
+        </div>
+    </div>
+
+    <div class="maiN">
+        <div class="photo"></div>
+        <br>
+        
+        <div class="diya">
+            <h1>Diya Regmi</h1>
+            <br>
+            <h3>I am a content creator</h3>
+        </div>
+    </div>
+    <div class="des">
+        <pre>
+            I have always been fond of making videos and posting it online.
+                When I was 13 y/o, I started my journey towards Content Creation.
+            I first opened a youtube channel and started posting videos about makeups and 
+                                                     stuffs.
+              I now post more about it on my TikTok, Facebook and Instagram pages.    
+              </pre>
+    </div>
+    <div class="di">
+    <pre> My Services</pre>
+</div>
+    <div class="makeup">
+       
+        <br>
+        <div class="box">
+            <pre>                     Makeup Tutorials:
+    I create step-by-step video tutorials
+    demonstrating how to achieve
+           various makeup looks.
+
+                    Live Makeup Sessions:
+           I host live streaming sessions 
+            where I can interact with 
+           viewers, answer questions, and
+         demonstrate makeup techniques in 
+                    real-time.
+ </pre>
+            
+        </div>
+        <div class="box1">
+            <pre>                 Product Reviews:
+         I provide honest and informative reviews
+                   of makeup products, 
+        helping followers make informed
+                  purchasing decisions.
+
+                  Collaborations: 
+            I do collaboration with makeup brands
+                for sponsored
+            content or product launches.</pre>
+        </div>
+        <br>
+   
+        
+      
+    </div>
+    <div class="diyu">
+        <H1>I Love What I Do</H1>
+    </div>
+    <div class="projects">
+        
+        <div class="options1">
+            <a href="#">All projects</a>
+            <a href="#">Illustration</a>
+            <a href="#">websites</a>
+           
+        </div>
+    </div>
+    <div class="End">
+        <h1> Thank you</h1>
+    </div>
+    
+   
+    
+</body>
+</html>
